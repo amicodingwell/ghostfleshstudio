@@ -21,6 +21,12 @@ h1 {
     margin: 0 auto;
 }
 
+table {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 td {
     text-align: center;
 }
@@ -28,8 +34,6 @@ td {
 .content_box {
     width: 480px;
     max-width: 80%;
-    display: block;
-    margin: 0 auto;
     padding: 10px;
     gap: 10px;
     border: solid;
@@ -37,7 +41,27 @@ td {
     border-color: #FFFFFF;
     border-width: 6px;
     background-color: #000000;
-    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.content_box th {
+    text-align: center;
+    vertical-align: bottom;
+    padding: 10px;
+    width: 33.33%;
+}
+
+.banner_images {
+    display: block;
+    margin: 0 auto 10px auto;
+    max-width: 140px;
+    width: 100%;
+    height: auto;
+}
+
+.content_box h2 {
+    margin: 0;
+    font-size: 1.2rem;
 }
 
 .banner_images {
