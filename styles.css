@@ -51,20 +51,17 @@ td {
     width: 33.33%;
 }
 
-.banner_images {
-    display: block;
-    margin: 0 auto 10px auto;
-    max-width: 140px;
-    width: 100%;
-    height: auto;
-}
-
 .content_box h2 {
     margin: 0;
     font-size: 1.2rem;
 }
 
- 
+.banner_images {
+    min-width: 80px;
+    max-width: 100%;
+    max-height: 200px;
+}
+    
 .main_logo {
     width: 500px;
     max-width: 80%;
