@@ -37,6 +37,7 @@ td {
     border-color: #FFFFFF;
     border-width: 6px;
     background-color: #000000;
+    flex-wrap: wrap;
 }
 
 .banner_images {
