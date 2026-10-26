@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'RuneScape Bold 12';
+    src: url('./assets/font/RuneScape-Bold-12.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'RuneScape Bold 12', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-image: url('./assets/background.png');
+    background-color: #000000;
+    background-repeat: repeat;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center; 
+}
+
+h1 {
+    width: 400px;
+    margin: 0 auto;
+}
+
+td {
+    text-align: center;
+}
+
+.content_box {
+    width: 480px;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    gap: 10px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    border-width: 6px;
+    background-color: #000000;
+}
+
+.banner_images {
+    min-width: 150px;
+    max-width: 100%;
+    max-height: 200px;
+}
+    
+.main_logo {
+    width: 500px;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.media_images {
+    display: block;
+    max-width: 450px;
+    wdith: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
